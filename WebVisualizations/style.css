@@ -154,7 +154,7 @@ padding-top: 15px;
 
 .navbar-expand-lg{
 
-background-color: white !important;
+background-color: white;
 
 }
 
@@ -170,13 +170,13 @@ background-color: white !important;
 
     margin: inherit;
 
-    background-color: grey; 
+    background-color: white; 
 
 }
 
 .navbar-brand{
 
-    padding: 10px !important;
+    padding: 10px;
 
 }
 
@@ -185,7 +185,7 @@ background-color: white !important;
 button{
 
     margin-right: 30px;
-
+    
 }
 
 button:focus {
