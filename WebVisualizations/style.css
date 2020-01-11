@@ -3,7 +3,7 @@
 body{
 
     background-color: #EDEDED;
-
+    color: darkgray;
 }
 
 /* Navbar */
@@ -15,13 +15,25 @@ body{
 
 }
 
+h4{
+    color: #0cd1c7;
+    font-weight: bold;
+    font-family: Georgia, 'Tahoma', Times, serif;
+    font-size: 5;
+}
+h3 {
+    color: #0cd1c7;
+    font-weight: bold;
+    font-family: Georgia, 'Tahoma', Times, serif;
+    padding-top: 25px;
+}
 .navigation .navbar-brand{
 
     color: white;
 
     margin-left: 35px;
 
-    padding: inherit;
+    padding: 15px;
 
     font-weight: bold;
 
@@ -33,30 +45,11 @@ body{
 
 .navbar{
 
-    background-color: grey;
+    background-color: white;
 
     font-size: 18px;
 
 }
-
-.active, .dropdown-menu .dropdown-item:active a:hover{
-
-    background-color:#E7E7E7!important;
-
-}
-
-.dropdown-item{
-
-    color: #6D8092 !important;
-
-}
-
-.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
-
-    background-color:#E7E7E7 !important;
-
-}
-
 a{
 
     color: #6D8092;
@@ -65,102 +58,60 @@ a{
 
 }
 
-.nav-link:hover{
-
-    background-color:#E7E7E7 !important;
-
-   }
-
- 
-
-.navbar-brand:hover{
-
-color: rgb(175, 175, 175) !important;
-
-}
 
 /* Images */
 
 img{
 
-    width:100% !important;
+    width:100% ;
 
-    height:100% !important;
+    height:100%;
 
 }
 
-.active, .panel:hover{
-
-    border-color:white;
-
-    border-style: solid;
-
+/* header for comparison page */
+.imageNav-header {
+    color: #10bbb2;
+    font-weight: bold;
+    font-size: 8;
+    text-align: center;
     
-
 }
-
-.vizualization{
-
-    width:50% !important;
-
-    height:50% !important;
-
-}
-
- 
-
-/* Title Class  */
-
-.title{
-
-    color: white; 
-
-    font-family: Georgia, 'Tahoma', Times, serif;
-
-    font-weight: bolder;
-
-    padding-top: 25px;
-
-}
-
-/* Paragraph Element */
+/* Paragraph*/
 
 p{
-
-color: white;
-
-font-family: Arial, Helvetica, sans-serif;
-
-font-size: 17px;
-
+color: black;
+font-family: calibri, Helvetica, sans-serif;
+font-size: 18px;
 }
 
 /* Box Class */
 
 .box {
-
     margin-top: 60px;
-
-    margin-bottom: 62px;
-
+    margin-bottom: 60px;
+    margin-left: 10px;
     padding: 10px 20px 15px;
-
     color:black;
-
-    background-color: grey;
-
- 
-
+    background-color: white;
+}
+  .box1 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    margin-right: 70px;
+    padding: 10px 10px 0px;
+    color: black;
+    background-color: white;
+    
   }
-
 /* Table */
 
-  .table{
-
+.table{
     font-size: 15px;
-
-    border-top-color: green !important;
-
+    margin-left: 50px;
+    margin-right: 0px;
+  
 }
 
 /* Footer */
@@ -173,7 +124,7 @@ border-top-style: solid;
 
 border-top-width: 5px;
 
-border-top-color: white;
+border-top-color: rgb(12, 233, 203);
 
 color: white;
 
