@@ -157,7 +157,15 @@ padding-top: 15px;
 background-color: white;
 
 }
-
+/* Media query for body */
+@media only screen and (max-width: 767px) {
+    /* Set background color to white on small screens */
+    body {
+      /* Visual */
+      background-color: #fff;
+    }
+  }
+  
 .navbar{
 
     max-height: none;
