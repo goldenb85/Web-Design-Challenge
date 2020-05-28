@@ -30,3 +30,5 @@ The website consist of 7 pages total, including:
 
 ![visualize page large screen](WebVisualizations/Images/visualize-lg.png)
 
+Email:
+xinlianghuang85@gmail.com
