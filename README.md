@@ -25,7 +25,7 @@ The website consist of 7 pages total, including:
 ![data page large screen](WebVisualizations/Images/data-lg.png)
 
 
-#### Visualization pages
+#### 4 Visualization pages
 
 
 ![visualize page large screen](WebVisualizations/Images/visualize-lg.png)
